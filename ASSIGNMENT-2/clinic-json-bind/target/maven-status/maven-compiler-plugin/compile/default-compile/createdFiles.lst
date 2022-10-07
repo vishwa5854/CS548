@@ -1,0 +1,3 @@
+edu\stevens\cs548\clinic\json\bind\LocalDateSerializer.class
+edu\stevens\cs548\clinic\json\bind\TreatmentDeserializer.class
+edu\stevens\cs548\clinic\json\bind\App.class
