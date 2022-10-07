@@ -6,7 +6,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="EclipseLink" />
         <datasource-mapping>
-          <factory-entry name="clinic-domain" value="a166938c-ed83-4e0c-9975-b79b44ec5cb6" />
+          <factory-entry name="clinic-domain" value="3b4b6e41-9690-4645-976c-3f387a3af5e9" />
         </datasource-mapping>
         <naming-strategy-map />
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
