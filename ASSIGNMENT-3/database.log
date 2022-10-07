@@ -1,0 +1,417 @@
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.server
+FINE: Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The access type for the persistent class [class edu.stevens.cs548.clinic.data.Patient] is set to [FIELD].
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The target entity (reference) class for the one to many mapping element [field treatments] is being defaulted to: class edu.stevens.cs548.clinic.data.Treatment.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The access type for the persistent class [class edu.stevens.cs548.clinic.data.Treatment] is set to [FIELD].
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The target entity (reference) class for the many to one mapping element [field provider] is being defaulted to: class edu.stevens.cs548.clinic.data.Provider.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The target entity (reference) class for the many to one mapping element [field patient] is being defaulted to: class edu.stevens.cs548.clinic.data.Patient.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The access type for the persistent class [class edu.stevens.cs548.clinic.data.RadiologyTreatment] is set to [FIELD].
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The target entity (reference) class for the one to many mapping element [field followupTreatments] is being defaulted to: class edu.stevens.cs548.clinic.data.Treatment.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The target class (reference) class for the element collection mapping element [field treatmentDates] is being defaulted to: class java.util.Date.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The access type for the persistent class [class edu.stevens.cs548.clinic.data.Provider] is set to [FIELD].
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The target entity (reference) class for the one to many mapping element [field treatments] is being defaulted to: class edu.stevens.cs548.clinic.data.Treatment.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The access type for the persistent class [class edu.stevens.cs548.clinic.data.DrugTreatment] is set to [FIELD].
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The access type for the persistent class [class edu.stevens.cs548.clinic.data.SurgeryTreatment] is set to [FIELD].
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The target entity (reference) class for the one to many mapping element [field followupTreatments] is being defaulted to: class edu.stevens.cs548.clinic.data.Treatment.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The access type for the persistent class [class edu.stevens.cs548.clinic.data.PhysiotherapyTreatment] is set to [FIELD].
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The target class (reference) class for the element collection mapping element [field treatmentDates] is being defaulted to: class java.util.Date.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The alias name for the entity class [class edu.stevens.cs548.clinic.data.Patient] is being defaulted to: Patient.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: Ignoring default serialization on element [field patientId] within entity class [class edu.stevens.cs548.clinic.data.Patient] since EclipseLink convert metadata is specified.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The alias name for the entity class [class edu.stevens.cs548.clinic.data.RadiologyTreatment] is being defaulted to: RadiologyTreatment.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The alias name for the entity class [class edu.stevens.cs548.clinic.data.Treatment] is being defaulted to: Treatment.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: Ignoring default serialization on element [field treatmentId] within entity class [class edu.stevens.cs548.clinic.data.Treatment] since EclipseLink convert metadata is specified.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The discriminator column name for the root inheritance class [edu.stevens.cs548.clinic.data.Treatment] is being defaulted to: DTYPE.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The table name for entity [class edu.stevens.cs548.clinic.data.RadiologyTreatment] is being defaulted to: TREATMENT.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The primary key column name for the inheritance class [class edu.stevens.cs548.clinic.data.RadiologyTreatment] is being defaulted to: ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The foreign key column name for the inheritance class [edu.stevens.cs548.clinic.data.RadiologyTreatment] is being defaulted to: ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The discriminator column name for the root inheritance class [edu.stevens.cs548.clinic.data.RadiologyTreatment] is being defaulted to: DTYPE.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The alias name for the entity class [class edu.stevens.cs548.clinic.data.Provider] is being defaulted to: Provider.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: Ignoring default serialization on element [field providerId] within entity class [class edu.stevens.cs548.clinic.data.Provider] since EclipseLink convert metadata is specified.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The alias name for the entity class [class edu.stevens.cs548.clinic.data.DrugTreatment] is being defaulted to: DrugTreatment.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The table name for entity [class edu.stevens.cs548.clinic.data.DrugTreatment] is being defaulted to: TREATMENT.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The primary key column name for the inheritance class [class edu.stevens.cs548.clinic.data.DrugTreatment] is being defaulted to: ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The foreign key column name for the inheritance class [edu.stevens.cs548.clinic.data.DrugTreatment] is being defaulted to: ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The discriminator column name for the root inheritance class [edu.stevens.cs548.clinic.data.DrugTreatment] is being defaulted to: DTYPE.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The alias name for the entity class [class edu.stevens.cs548.clinic.data.SurgeryTreatment] is being defaulted to: SurgeryTreatment.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The table name for entity [class edu.stevens.cs548.clinic.data.SurgeryTreatment] is being defaulted to: TREATMENT.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The primary key column name for the inheritance class [class edu.stevens.cs548.clinic.data.SurgeryTreatment] is being defaulted to: ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The foreign key column name for the inheritance class [edu.stevens.cs548.clinic.data.SurgeryTreatment] is being defaulted to: ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The discriminator column name for the root inheritance class [edu.stevens.cs548.clinic.data.SurgeryTreatment] is being defaulted to: DTYPE.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The alias name for the entity class [class edu.stevens.cs548.clinic.data.PhysiotherapyTreatment] is being defaulted to: PhysiotherapyTreatment.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The table name for entity [class edu.stevens.cs548.clinic.data.PhysiotherapyTreatment] is being defaulted to: TREATMENT.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The primary key column name for the inheritance class [class edu.stevens.cs548.clinic.data.PhysiotherapyTreatment] is being defaulted to: ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The foreign key column name for the inheritance class [edu.stevens.cs548.clinic.data.PhysiotherapyTreatment] is being defaulted to: ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The discriminator column name for the root inheritance class [edu.stevens.cs548.clinic.data.PhysiotherapyTreatment] is being defaulted to: DTYPE.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The collection table name for the basic collection/map mapping [field treatmentDates] is being defaulted to: RadiologyTreatment_TREATMENTDATES.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The primary key column name for the mapping element [field treatmentDates] is being defaulted to: ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The foreign key column name for the mapping element [treatmentDates] is being defaulted to: RadiologyTreatment_ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The value column name for the basic collection/map mapping element mapping element [treatmentDates] is being defaulted to: TREATMENTDATES.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+FINE: 
+java.lang.ClassNotFoundException: java.util.Collectionjava.util.Date
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:375)
+	at org.eclipse.persistence.internal.jpa.metadata.accessors.objects.MetadataAsmFactory.getVirtualMetadataClass(MetadataAsmFactory.java:547)
+	at org.eclipse.persistence.internal.jpa.metadata.accessors.objects.MetadataAsmFactory.buildClassMetadata(MetadataAsmFactory.java:148)
+	at org.eclipse.persistence.internal.jpa.metadata.accessors.objects.MetadataAsmFactory.getMetadataClass(MetadataAsmFactory.java:182)
+	at org.eclipse.persistence.internal.jpa.metadata.accessors.objects.MetadataAccessibleObject.getMetadataClass(MetadataAccessibleObject.java:73)
+	at org.eclipse.persistence.internal.jpa.metadata.accessors.objects.MetadataAnnotatedElement.getRawClassWithGenerics(MetadataAnnotatedElement.java:395)
+	at org.eclipse.persistence.internal.jpa.metadata.accessors.mappings.MappingAccessor.getRawClassWithGenerics(MappingAccessor.java:965)
+	at org.eclipse.persistence.internal.jpa.metadata.accessors.mappings.MappingAccessor.getReferenceClassWithGenerics(MappingAccessor.java:996)
+	at org.eclipse.persistence.internal.jpa.metadata.accessors.mappings.DirectCollectionAccessor.processDirectCollectionMapping(DirectCollectionAccessor.java:463)
+	at org.eclipse.persistence.internal.jpa.metadata.accessors.mappings.ElementCollectionAccessor.process(ElementCollectionAccessor.java:875)
+	at org.eclipse.persistence.internal.jpa.metadata.MetadataProject.processDirectCollectionAccessors(MetadataProject.java:1622)
+	at org.eclipse.persistence.internal.jpa.metadata.MetadataProject.processStage3(MetadataProject.java:1911)
+	at org.eclipse.persistence.internal.jpa.metadata.MetadataProcessor.processORMMetadata(MetadataProcessor.java:584)
+	at org.eclipse.persistence.internal.jpa.deployment.PersistenceUnitProcessor.processORMetadata(PersistenceUnitProcessor.java:629)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.predeploy(EntityManagerSetupImpl.java:2005)
+	at org.eclipse.persistence.internal.jpa.deployment.JPAInitializer.callPredeploy(JPAInitializer.java:104)
+	at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactoryImpl(PersistenceProvider.java:107)
+	at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactory(PersistenceProvider.java:191)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+	at edu.stevens.cs548.clinic.data.main.App.connectToDatabase(App.java:232)
+	at edu.stevens.cs548.clinic.data.main.App.<init>(App.java:182)
+	at edu.stevens.cs548.clinic.data.main.App.main(App.java:140)
+
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The collection table name for the basic collection/map mapping [field treatmentDates] is being defaulted to: PhysiotherapyTreatment_TREATMENTDATES.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The primary key column name for the mapping element [field treatmentDates] is being defaulted to: ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The foreign key column name for the mapping element [treatmentDates] is being defaulted to: PhysiotherapyTreatment_ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The value column name for the basic collection/map mapping element mapping element [treatmentDates] is being defaulted to: TREATMENTDATES.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The primary key column name for the mapping element [field provider] is being defaulted to: ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The foreign key column name for the mapping element [provider] is being defaulted to: PROVIDER_ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The primary key column name for the mapping element [field patient] is being defaulted to: ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The foreign key column name for the mapping element [patient] is being defaulted to: PATIENT_ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The source primary key column name for the many to many mapping [field followupTreatments] is being defaulted to: ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The target primary key column name for the many to many mapping [field followupTreatments] is being defaulted to: ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The source primary key column name for the many to many mapping [field followupTreatments] is being defaulted to: ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.metadata
+CONFIG: The target primary key column name for the many to many mapping [field followupTreatments] is being defaulted to: ID.
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user
+INFO: EclipseLink, version: Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0
+Oct 07, 2022 2:59:02 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.connection
+FINE: connecting(DatabaseLogin(
+	platform=>PostgreSQLPlatform
+	user name=> "cs548user"
+	datasource URL=> "jdbc:postgresql://localhost:5432/cs548"
+))
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.connection
+CONFIG: Connected: jdbc:postgresql://localhost:5432/cs548
+	User: cs548user
+	Database: PostgreSQL  Version: 14.5 (Debian 14.5-1.pgdg110+1)
+	Driver: PostgreSQL JDBC Driver  Version: 42.5.0
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.connection
+FINE: /file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user login successful
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.sql
+FINE: CREATE TABLE RADIOLOGYTREATMENT_TREATMENT (RADIOLOGYTREATMENT_ID BIGINT NOT NULL, TREATMENT_ID BIGINT NOT NULL, PRIMARY KEY (RADIOLOGYTREATMENT_ID, TREATMENT_ID))
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.sql
+FINE: ALTER TABLE TREATMENT ADD CONSTRAINT FK_TREATMENT_PATIENT_ID FOREIGN KEY (PATIENT_ID) REFERENCES PATIENT (ID)
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.sql
+FINE: SELECT 1
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user
+WARNING: 
+Local Exception Stack: 
+Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: constraint "fk_treatment_patient_id" for relation "treatment" already exists
+Error Code: 0
+Call: ALTER TABLE TREATMENT ADD CONSTRAINT FK_TREATMENT_PATIENT_ID FOREIGN KEY (PATIENT_ID) REFERENCES PATIENT (ID)
+Query: DataModifyQuery(sql="ALTER TABLE TREATMENT ADD CONSTRAINT FK_TREATMENT_PATIENT_ID FOREIGN KEY (PATIENT_ID) REFERENCES PATIENT (ID)")
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:333)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeDirectNoSelect(DatabaseAccessor.java:917)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeNoSelect(DatabaseAccessor.java:979)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.basicExecuteCall(DatabaseAccessor.java:640)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeCall(DatabaseAccessor.java:567)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.basicExecuteCall(AbstractSession.java:2105)
+	at org.eclipse.persistence.sessions.server.ServerSession.executeCall(ServerSession.java:603)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:275)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:261)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeNoSelectCall(DatasourceCallQueryMechanism.java:317)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeNoSelect(DatasourceCallQueryMechanism.java:288)
+	at org.eclipse.persistence.queries.DataModifyQuery.executeDatabaseQuery(DataModifyQuery.java:87)
+	at org.eclipse.persistence.queries.DatabaseQuery.execute(DatabaseQuery.java:913)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.internalExecuteQuery(AbstractSession.java:3367)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1898)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1880)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1830)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.priviledgedExecuteNonSelectingCall(AbstractSession.java:5234)
+	at org.eclipse.persistence.tools.schemaframework.TableDefinition.createForeignConstraintsOnDatabase(TableDefinition.java:896)
+	at org.eclipse.persistence.tools.schemaframework.SchemaManager.createForeignConstraints(SchemaManager.java:194)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.createConstraints(TableCreator.java:120)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.createConstraints(TableCreator.java:97)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.extendTables(TableCreator.java:551)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.extendTablesAndConstraints(TableCreator.java:420)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.extendTables(TableCreator.java:411)
+	at org.eclipse.persistence.tools.schemaframework.SchemaManager.extendDefaultTables(SchemaManager.java:1187)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryProvider.generateDefaultTables(EntityManagerFactoryProvider.java:119)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.writeDDLToDatabase(EntityManagerSetupImpl.java:4696)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.writeDDL(EntityManagerSetupImpl.java:4624)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.writeDDL(EntityManagerSetupImpl.java:4524)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:816)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getAbstractSession(EntityManagerFactoryDelegate.java:222)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.createEntityManagerImpl(EntityManagerFactoryDelegate.java:330)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManagerImpl(EntityManagerFactoryImpl.java:350)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:313)
+	at edu.stevens.cs548.clinic.data.main.App.connectToDatabase(App.java:233)
+	at edu.stevens.cs548.clinic.data.main.App.<init>(App.java:182)
+	at edu.stevens.cs548.clinic.data.main.App.main(App.java:140)
+Caused by: org.postgresql.util.PSQLException: ERROR: constraint "fk_treatment_patient_id" for relation "treatment" already exists
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeDirectNoSelect(DatabaseAccessor.java:907)
+	... 36 more
+
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.sql
+FINE: ALTER TABLE SURGERYTREATMENT_TREATMENT ADD CONSTRAINT FK_SURGERYTREATMENT_TREATMENT_TREATMENT_ID FOREIGN KEY (TREATMENT_ID) REFERENCES TREATMENT (ID)
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.sql
+FINE: SELECT 1
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user
+WARNING: 
+Local Exception Stack: 
+Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: constraint "fk_surgerytreatment_treatment_treatment_id" for relation "surgerytreatment_treatment" already exists
+Error Code: 0
+Call: ALTER TABLE SURGERYTREATMENT_TREATMENT ADD CONSTRAINT FK_SURGERYTREATMENT_TREATMENT_TREATMENT_ID FOREIGN KEY (TREATMENT_ID) REFERENCES TREATMENT (ID)
+Query: DataModifyQuery(sql="ALTER TABLE SURGERYTREATMENT_TREATMENT ADD CONSTRAINT FK_SURGERYTREATMENT_TREATMENT_TREATMENT_ID FOREIGN KEY (TREATMENT_ID) REFERENCES TREATMENT (ID)")
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:333)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeDirectNoSelect(DatabaseAccessor.java:917)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeNoSelect(DatabaseAccessor.java:979)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.basicExecuteCall(DatabaseAccessor.java:640)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeCall(DatabaseAccessor.java:567)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.basicExecuteCall(AbstractSession.java:2105)
+	at org.eclipse.persistence.sessions.server.ServerSession.executeCall(ServerSession.java:603)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:275)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:261)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeNoSelectCall(DatasourceCallQueryMechanism.java:317)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeNoSelect(DatasourceCallQueryMechanism.java:288)
+	at org.eclipse.persistence.queries.DataModifyQuery.executeDatabaseQuery(DataModifyQuery.java:87)
+	at org.eclipse.persistence.queries.DatabaseQuery.execute(DatabaseQuery.java:913)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.internalExecuteQuery(AbstractSession.java:3367)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1898)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1880)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1830)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.priviledgedExecuteNonSelectingCall(AbstractSession.java:5234)
+	at org.eclipse.persistence.tools.schemaframework.TableDefinition.createForeignConstraintsOnDatabase(TableDefinition.java:896)
+	at org.eclipse.persistence.tools.schemaframework.SchemaManager.createForeignConstraints(SchemaManager.java:194)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.createConstraints(TableCreator.java:120)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.createConstraints(TableCreator.java:97)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.extendTables(TableCreator.java:551)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.extendTablesAndConstraints(TableCreator.java:420)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.extendTables(TableCreator.java:411)
+	at org.eclipse.persistence.tools.schemaframework.SchemaManager.extendDefaultTables(SchemaManager.java:1187)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryProvider.generateDefaultTables(EntityManagerFactoryProvider.java:119)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.writeDDLToDatabase(EntityManagerSetupImpl.java:4696)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.writeDDL(EntityManagerSetupImpl.java:4624)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.writeDDL(EntityManagerSetupImpl.java:4524)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:816)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getAbstractSession(EntityManagerFactoryDelegate.java:222)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.createEntityManagerImpl(EntityManagerFactoryDelegate.java:330)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManagerImpl(EntityManagerFactoryImpl.java:350)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:313)
+	at edu.stevens.cs548.clinic.data.main.App.connectToDatabase(App.java:233)
+	at edu.stevens.cs548.clinic.data.main.App.<init>(App.java:182)
+	at edu.stevens.cs548.clinic.data.main.App.main(App.java:140)
+Caused by: org.postgresql.util.PSQLException: ERROR: constraint "fk_surgerytreatment_treatment_treatment_id" for relation "surgerytreatment_treatment" already exists
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeDirectNoSelect(DatabaseAccessor.java:907)
+	... 36 more
+
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.sql
+FINE: ALTER TABLE RadiologyTreatment_TREATMENTDATES ADD CONSTRAINT FK_RadiologyTreatment_TREATMENTDATES_RadiologyTreatment_ID FOREIGN KEY (RadiologyTreatment_ID) REFERENCES TREATMENT (ID)
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.sql
+FINE: SELECT 1
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user
+WARNING: 
+Local Exception Stack: 
+Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: constraint "fk_radiologytreatment_treatmentdates_radiologytreatment_id" for relation "radiologytreatment_treatmentdates" already exists
+Error Code: 0
+Call: ALTER TABLE RadiologyTreatment_TREATMENTDATES ADD CONSTRAINT FK_RadiologyTreatment_TREATMENTDATES_RadiologyTreatment_ID FOREIGN KEY (RadiologyTreatment_ID) REFERENCES TREATMENT (ID)
+Query: DataModifyQuery(sql="ALTER TABLE RadiologyTreatment_TREATMENTDATES ADD CONSTRAINT FK_RadiologyTreatment_TREATMENTDATES_RadiologyTreatment_ID FOREIGN KEY (RadiologyTreatment_ID) REFERENCES TREATMENT (ID)")
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:333)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeDirectNoSelect(DatabaseAccessor.java:917)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeNoSelect(DatabaseAccessor.java:979)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.basicExecuteCall(DatabaseAccessor.java:640)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeCall(DatabaseAccessor.java:567)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.basicExecuteCall(AbstractSession.java:2105)
+	at org.eclipse.persistence.sessions.server.ServerSession.executeCall(ServerSession.java:603)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:275)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:261)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeNoSelectCall(DatasourceCallQueryMechanism.java:317)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeNoSelect(DatasourceCallQueryMechanism.java:288)
+	at org.eclipse.persistence.queries.DataModifyQuery.executeDatabaseQuery(DataModifyQuery.java:87)
+	at org.eclipse.persistence.queries.DatabaseQuery.execute(DatabaseQuery.java:913)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.internalExecuteQuery(AbstractSession.java:3367)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1898)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1880)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1830)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.priviledgedExecuteNonSelectingCall(AbstractSession.java:5234)
+	at org.eclipse.persistence.tools.schemaframework.TableDefinition.createForeignConstraintsOnDatabase(TableDefinition.java:896)
+	at org.eclipse.persistence.tools.schemaframework.SchemaManager.createForeignConstraints(SchemaManager.java:194)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.createConstraints(TableCreator.java:120)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.createConstraints(TableCreator.java:97)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.extendTables(TableCreator.java:551)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.extendTablesAndConstraints(TableCreator.java:420)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.extendTables(TableCreator.java:411)
+	at org.eclipse.persistence.tools.schemaframework.SchemaManager.extendDefaultTables(SchemaManager.java:1187)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryProvider.generateDefaultTables(EntityManagerFactoryProvider.java:119)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.writeDDLToDatabase(EntityManagerSetupImpl.java:4696)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.writeDDL(EntityManagerSetupImpl.java:4624)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.writeDDL(EntityManagerSetupImpl.java:4524)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:816)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getAbstractSession(EntityManagerFactoryDelegate.java:222)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.createEntityManagerImpl(EntityManagerFactoryDelegate.java:330)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManagerImpl(EntityManagerFactoryImpl.java:350)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:313)
+	at edu.stevens.cs548.clinic.data.main.App.connectToDatabase(App.java:233)
+	at edu.stevens.cs548.clinic.data.main.App.<init>(App.java:182)
+	at edu.stevens.cs548.clinic.data.main.App.main(App.java:140)
+Caused by: org.postgresql.util.PSQLException: ERROR: constraint "fk_radiologytreatment_treatmentdates_radiologytreatment_id" for relation "radiologytreatment_treatmentdates" already exists
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeDirectNoSelect(DatabaseAccessor.java:907)
+	... 36 more
+
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.sql
+FINE: ALTER TABLE RADIOLOGYTREATMENT_TREATMENT ADD CONSTRAINT FK_RADIOLOGYTREATMENT_TREATMENT_RADIOLOGYTREATMENT_ID FOREIGN KEY (RADIOLOGYTREATMENT_ID) REFERENCES TREATMENT (ID)
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.sql
+FINE: ALTER TABLE RADIOLOGYTREATMENT_TREATMENT ADD CONSTRAINT FK_RADIOLOGYTREATMENT_TREATMENT_TREATMENT_ID FOREIGN KEY (TREATMENT_ID) REFERENCES TREATMENT (ID)
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.sql
+FINE: ALTER TABLE PhysiotherapyTreatment_TREATMENTDATES ADD CONSTRAINT PhysiotherapyTreatment_TREATMENTDATES_PhysiotherapyTreatment_ID FOREIGN KEY (PhysiotherapyTreatment_ID) REFERENCES TREATMENT (ID)
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.sql
+FINE: SELECT 1
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user
+WARNING: 
+Local Exception Stack: 
+Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: constraint "physiotherapytreatment_treatmentdates_physiotherapytreatment_id" for relation "physiotherapytreatment_treatmentdates" already exists
+Error Code: 0
+Call: ALTER TABLE PhysiotherapyTreatment_TREATMENTDATES ADD CONSTRAINT PhysiotherapyTreatment_TREATMENTDATES_PhysiotherapyTreatment_ID FOREIGN KEY (PhysiotherapyTreatment_ID) REFERENCES TREATMENT (ID)
+Query: DataModifyQuery(sql="ALTER TABLE PhysiotherapyTreatment_TREATMENTDATES ADD CONSTRAINT PhysiotherapyTreatment_TREATMENTDATES_PhysiotherapyTreatment_ID FOREIGN KEY (PhysiotherapyTreatment_ID) REFERENCES TREATMENT (ID)")
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:333)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeDirectNoSelect(DatabaseAccessor.java:917)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeNoSelect(DatabaseAccessor.java:979)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.basicExecuteCall(DatabaseAccessor.java:640)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeCall(DatabaseAccessor.java:567)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.basicExecuteCall(AbstractSession.java:2105)
+	at org.eclipse.persistence.sessions.server.ServerSession.executeCall(ServerSession.java:603)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:275)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:261)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeNoSelectCall(DatasourceCallQueryMechanism.java:317)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeNoSelect(DatasourceCallQueryMechanism.java:288)
+	at org.eclipse.persistence.queries.DataModifyQuery.executeDatabaseQuery(DataModifyQuery.java:87)
+	at org.eclipse.persistence.queries.DatabaseQuery.execute(DatabaseQuery.java:913)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.internalExecuteQuery(AbstractSession.java:3367)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1898)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1880)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1830)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.priviledgedExecuteNonSelectingCall(AbstractSession.java:5234)
+	at org.eclipse.persistence.tools.schemaframework.TableDefinition.createForeignConstraintsOnDatabase(TableDefinition.java:896)
+	at org.eclipse.persistence.tools.schemaframework.SchemaManager.createForeignConstraints(SchemaManager.java:194)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.createConstraints(TableCreator.java:120)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.createConstraints(TableCreator.java:97)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.extendTables(TableCreator.java:551)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.extendTablesAndConstraints(TableCreator.java:420)
+	at org.eclipse.persistence.tools.schemaframework.TableCreator.extendTables(TableCreator.java:411)
+	at org.eclipse.persistence.tools.schemaframework.SchemaManager.extendDefaultTables(SchemaManager.java:1187)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryProvider.generateDefaultTables(EntityManagerFactoryProvider.java:119)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.writeDDLToDatabase(EntityManagerSetupImpl.java:4696)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.writeDDL(EntityManagerSetupImpl.java:4624)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.writeDDL(EntityManagerSetupImpl.java:4524)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:816)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getAbstractSession(EntityManagerFactoryDelegate.java:222)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.createEntityManagerImpl(EntityManagerFactoryDelegate.java:330)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManagerImpl(EntityManagerFactoryImpl.java:350)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:313)
+	at edu.stevens.cs548.clinic.data.main.App.connectToDatabase(App.java:233)
+	at edu.stevens.cs548.clinic.data.main.App.<init>(App.java:182)
+	at edu.stevens.cs548.clinic.data.main.App.main(App.java:140)
+Caused by: org.postgresql.util.PSQLException: ERROR: constraint "physiotherapytreatment_treatmentdates_physiotherapytreatment_id" for relation "physiotherapytreatment_treatmentdates" already exists
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeDirectNoSelect(DatabaseAccessor.java:907)
+	... 36 more
+
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.sql
+FINE: SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+Oct 07, 2022 2:59:03 PM org.eclipse.persistence.session./file:/home/z/Desktop/CS548/Assignment3-Code (1)/Assignment3-Code/clinic-data-model/target/classes/_clinic-domain_url=jdbc:postgresql://localhost:5432/cs548_user=cs548user.sql
+FINE: SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
