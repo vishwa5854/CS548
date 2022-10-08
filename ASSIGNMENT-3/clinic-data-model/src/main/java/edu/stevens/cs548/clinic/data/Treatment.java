@@ -24,6 +24,7 @@ import java.util.UUID;
 
 @Entity
 @Table(name = "TREATMENT", indexes = @Index(columnList = "TREATMENT_ID"))
+@Inheritance(strategy = InheritanceType.JOINED)
 public abstract class Treatment implements Serializable {
 	
 	private static final long serialVersionUID = 1L;

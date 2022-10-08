@@ -8,7 +8,6 @@ import java.util.Date;
  * Entity implementation class for Entity: DrugTreatment
  */
 @Entity
-@Inheritance(strategy = InheritanceType.JOINED)
 public class DrugTreatment extends Treatment implements Serializable {
 
 	private static final long serialVersionUID = 1L;
