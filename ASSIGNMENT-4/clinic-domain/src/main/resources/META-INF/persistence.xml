@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1"
+	xsi:schemalocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="clinic-domain">
+		<description>Domain model for a clinical information system</description>
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<jta-data-source>jdbc/cs548</jta-data-source>
+		<!-- TODO List domain classes -->
+
+		<properties>
+			<!-- This property only necessary when running in standalone app -->
+			<!--   <property name="eclipselink.logging.logger" value="JavaLogger"/> -->
+			<property name="eclipselink.logging.level" value="FINE"/>
+ 			<property name="eclipselink.ddl-generation" value="create-or-extend-tables" />
+<!-- 			<property name="eclipselink.ddl-generation" value="drop-and-create-tables" />  -->
+			<property name="eclipselink.target-database" value="Postgresql" />
+			<!-- See more at: http://www.eclipse.org/eclipselink/documentation/2.5/jpa/extensions/p_ddl_generation.htm -->
+		</properties>
+	</persistence-unit>
+</persistence>
