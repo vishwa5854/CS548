@@ -1,0 +1,16 @@
+docker run -d --name cs548db --network cs548-network -p 5432:5432 -e POSTGRES_PASSWORD=XXXXXX postgres
+
+docker run -it --rm --network cs548-network postgres /bin/bash
+createuser cs548user -P --createdb -h cs548db -U postgres
+YYYYYY
+YYYYYY
+XXXXXX
+
+docker run -it --rm --network cs548-network postgres psql -h cs548db -U postgres
+create database cs548 with owner cs548user;
+\q
+
+docker build -t cs548/server . 
+
+docker run -d --name payara --network cs548-network -p 4848:4848 -p 8080:8080 -p 8181:8181 cs548/server
+
