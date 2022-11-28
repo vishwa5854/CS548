@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ASSIGNMENT-6.iml" filepath="$PROJECT_DIR$/.idea/ASSIGNMENT-6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clinic-domain/clinic-domain.iml" filepath="$PROJECT_DIR$/clinic-domain/clinic-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clinic-dto/clinic-dto.iml" filepath="$PROJECT_DIR$/clinic-dto/clinic-dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clinic-init/clinic-init.iml" filepath="$PROJECT_DIR$/clinic-init/clinic-init.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clinic-rest/clinic-rest.iml" filepath="$PROJECT_DIR$/clinic-rest/clinic-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clinic-rest-client/clinic-rest-client.iml" filepath="$PROJECT_DIR$/clinic-rest-client/clinic-rest-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clinic-root/clinic-root.iml" filepath="$PROJECT_DIR$/clinic-root/clinic-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clinic-service/clinic-service.iml" filepath="$PROJECT_DIR$/clinic-service/clinic-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clinic-service-client/clinic-service-client.iml" filepath="$PROJECT_DIR$/clinic-service-client/clinic-service-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clinic-webapp/clinic-webapp.iml" filepath="$PROJECT_DIR$/clinic-webapp/clinic-webapp.iml" />
+    </modules>
+  </component>
+</project>

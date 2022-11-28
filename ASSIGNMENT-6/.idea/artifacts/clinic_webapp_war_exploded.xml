@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="clinic-webapp:war exploded">
+    <output-path>$PROJECT_DIR$/clinic-webapp/target/clinic-webapp-1.0.0</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>clinic-webapp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="clinic-webapp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="clinic-service-client-1.0.0.jar">
+            <element id="module-output" name="clinic-service-client" />
+          </element>
+          <element id="archive" name="clinic-domain-1.0.0.jar">
+            <element id="module-output" name="clinic-domain" />
+          </element>
+          <element id="archive" name="clinic-dto-1.0.0.jar">
+            <element id="module-output" name="clinic-dto" />
+          </element>
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.9.1" />
+          <element id="archive" name="clinic-service-1.0.0.jar">
+            <element id="module-output" name="clinic-service" />
+          </element>
+          <element id="archive" name="clinic-init-1.0.0.jar">
+            <element id="module-output" name="clinic-init" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/clinic-webapp/target/clinic-webapp-1.0.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="clinic-webapp/web/Web" />
+    </root>
+  </artifact>
+</component>

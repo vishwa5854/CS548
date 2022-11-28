@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="clinic-webapp:war">
+    <output-path>$PROJECT_DIR$/clinic-webapp/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>clinic-webapp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="clinic-webapp-1.0.0.war">
+      <element id="artifact" artifact-name="clinic-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>

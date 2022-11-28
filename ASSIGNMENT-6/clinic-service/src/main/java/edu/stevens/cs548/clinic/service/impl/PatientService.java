@@ -56,7 +56,11 @@ public class PatientService implements IPatientService {
 		// Use factory to create patient entity, and persist with DAO
 		try {
 			Patient patient = patientFactory.createPatient();
-			patient.setPatientId(UUID.randomUUID());
+			if (dto.getId() == null) {
+				patient.setPatientId(UUID.randomUUID());
+			} else {
+				patient.setPatientId(dto.getId());
+			}
 			patient.setName(dto.getName());
 			patient.setDob(dto.getDob());
 			patientDao.addPatient(patient);
@@ -80,19 +84,27 @@ public class PatientService implements IPatientService {
 		return dtos;
 	}
 	
-	/**
-	 * @see IPatientService#getPatient(UUID)
-	 */
 	@Override
-	public PatientDto getPatient(UUID id) throws PatientServiceExn {
+	/*
+	 * The boolean flag indicates if related treatments should be loaded eagerly.
+	 */
+	public PatientDto getPatient(UUID id, boolean includeTreatments) throws PatientServiceExn {
 		// TODO use DAO to get patient by external key, create DTO that includes treatments
 		try {
-			return patientToDto(patientDao.getPatient(id), true);
-		} catch (PatientExn | TreatmentExn ignored) {
-			return null;
+			Patient p = patientDao.getPatient(id);
+			return patientToDto(p, includeTreatments);
+		} catch (PatientExn | TreatmentExn e) {
+			throw new PatientServiceExn("Failed to get patient", e);
 		}
 	}
 
+	@Override
+	/*
+	 * By default, we eagerly load related treatments with a provider record.
+	 */
+	public PatientDto getPatient(UUID id) throws PatientServiceExn {
+		return getPatient(id, true);
+	}
 
 	private PatientDto patientToDto(Patient patient, boolean includeTreatments) throws TreatmentExn {
 		PatientDto dto = patientDtoFactory.createPatientDto();
@@ -123,6 +135,5 @@ public class PatientService implements IPatientService {
 	public void removeAll() throws PatientServiceExn {
 		patientDao.deletePatients();
 	}
-
 
 }
