@@ -33,10 +33,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="clinic-dto" />
-    <orderEntry type="module" module-name="clinic-service-client" />
-    <orderEntry type="module" module-name="clinic-domain" />
     <orderEntry type="module" module-name="clinic-microservice-client" />
     <orderEntry type="module" module-name="clinic-gson" />
+    <orderEntry type="module" module-name="clinic-service-client" />
+    <orderEntry type="module" module-name="clinic-domain" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax:javaee-api:8.0.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.mail:javax.mail:1.6.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.activation:activation:1.1" level="project" />

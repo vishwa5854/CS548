@@ -16,8 +16,8 @@
 		<module>../clinic-service-client</module>
 		<module>../clinic-service</module>
 
-		<module>../clinic-init0</module>
-		<module>../clinic-webapp0</module>
+<!--		<module>../clinic-init0</module>-->
+<!--		<module>../clinic-webapp0</module>-->
 
 		<module>../clinic-init</module>
 		<module>../clinic-webapp</module>

@@ -5,7 +5,7 @@
 	<persistence-unit name="clinic-domain">
 		<description>Domain model for a clinical information system</description>
 		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-		<jta-data-source>jdbc/cs548</jta-data-source>
+		<jta-data-source>java:global/jdbc/cs548</jta-data-source>
 
 		<!-- TODO List domain classes -->
 		<class>edu.stevens.cs548.clinic.domain.Patient</class>

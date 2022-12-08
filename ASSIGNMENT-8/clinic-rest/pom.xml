@@ -49,10 +49,10 @@
 			<groupId>edu.stevens.cs548</groupId>
 			<artifactId>clinic-dto</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>edu.stevens.cs548</groupId>
-			<artifactId>clinic-service-client</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>edu.stevens.cs548</groupId>-->
+<!--			<artifactId>clinic-service-client</artifactId>-->
+<!--		</dependency>-->
 		<dependency>
 			<groupId>edu.stevens.cs548</groupId>
 			<artifactId>clinic-microservice-client</artifactId>
