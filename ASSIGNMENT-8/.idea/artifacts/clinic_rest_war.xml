@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="clinic-rest:war">
+    <output-path>$PROJECT_DIR$/clinic-rest/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>clinic-rest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="clinic-rest-1.0.0.war">
+      <element id="artifact" artifact-name="clinic-rest:war exploded" />
+    </root>
+  </artifact>
+</component>

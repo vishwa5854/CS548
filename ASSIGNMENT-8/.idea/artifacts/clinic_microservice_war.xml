@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="clinic-microservice:war">
+    <output-path>$PROJECT_DIR$/clinic-microservice/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>clinic-microservice</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="clinic-microservice-1.0.0.war">
+      <element id="artifact" artifact-name="clinic-microservice:war exploded" />
+    </root>
+  </artifact>
+</component>
