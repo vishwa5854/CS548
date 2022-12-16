@@ -1,0 +1,57 @@
+{
+  "patients": [
+    {
+      "id": "9c90abde-c649-4bf0-b041-c1f8f4e02827",
+      "name": "one",
+      "dob": "2012-12-12",
+      "treatments": []
+    }
+  ],
+  "providers": [
+    {
+      "id": "e255a391-f673-4a1f-b1b1-b259fc4bd719",
+      "npi": "12345",
+      "name": "pone",
+      "treatments": []
+    }
+  ],
+  "treatments": [
+    {
+      "type-tag": "DRUGTREATMENT",
+      "drug": "dsa",
+      "dosage": 12.0,
+      "start-date": "2012-12-12",
+      "end-date": "2022-12-12",
+      "frequency": 12,
+      "id": "9c416369-e1fd-4b2b-8313-2547ae66fcab",
+      "patient-id": "9c90abde-c649-4bf0-b041-c1f8f4e02827",
+      "provider-id": "e255a391-f673-4a1f-b1b1-b259fc4bd719",
+      "diagnosis": "sad",
+      "followup-treatments": [
+        {
+          "type-tag": "SURGERY",
+          "surgery-date": "2012-12-12",
+          "discharge-instructions": "Discharge Intruction",
+          "id": "1ee893c2-6cb9-4f3b-942c-a24b118e5962",
+          "patient-id": "9c90abde-c649-4bf0-b041-c1f8f4e02827",
+          "provider-id": "e255a391-f673-4a1f-b1b1-b259fc4bd719",
+          "diagnosis": "sad",
+          "followup-treatments": [
+            {
+              "type-tag": "RADIOLOGY",
+              "treatment-dates": [
+                "2012-12-13",
+                "2022-12-14"
+              ],
+              "id": "246a14e6-b33b-4562-8b4d-b69cc3aa2ab5",
+              "patient-id": "9c90abde-c649-4bf0-b041-c1f8f4e02827",
+              "provider-id": "e255a391-f673-4a1f-b1b1-b259fc4bd719",
+              "diagnosis": "sad",
+              "followup-treatments": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
