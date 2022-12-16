@@ -1,0 +1,47 @@
+{
+  "patients": [
+    {
+      "id": "92df2ea9-76eb-4842-a4e1-78fe299dc1ae",
+      "name": "Rest Client Patient 1",
+      "dob": "1999-12-01",
+      "treatments": []
+    }
+  ],
+  "providers": [
+    {
+      "id": "dd425943-9aa4-4aac-8613-46b2a6755203",
+      "npi": "1234567890",
+      "name": "Rest Client Provider 1",
+      "treatments": []
+    }
+  ],
+  "treatments": [
+    {
+      "type-tag": "DRUGTREATMENT",
+      "drug": "ABC",
+      "dosage": 12.0,
+      "start-date": "2012-12-12",
+      "end-date": "2022-12-12",
+      "frequency": 12,
+      "id": "5a398d40-d9fd-44de-b0e0-0c09e623e6ed",
+      "patient-id": "92df2ea9-76eb-4842-a4e1-78fe299dc1ae",
+      "provider-id": "dd425943-9aa4-4aac-8613-46b2a6755203",
+      "diagnosis": "Patient is alrigh",
+      "followup-treatments": [
+        {
+          "type-tag": "PHYSIOTHERAPY",
+          "treatment-dates": [
+            "2023-12-12",
+            "2024-12-12",
+            "2025-12-12"
+          ],
+          "id": "56f8f3cc-6b9f-4564-9b36-b4a1da1a7529",
+          "patient-id": "92df2ea9-76eb-4842-a4e1-78fe299dc1ae",
+          "provider-id": "dd425943-9aa4-4aac-8613-46b2a6755203",
+          "diagnosis": "he needs some physiotherapy",
+          "followup-treatments": []
+        }
+      ]
+    }
+  ]
+}

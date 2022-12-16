@@ -1,0 +1,44 @@
+{
+  "patients": [
+    {
+      "id": "9b4962ed-190f-4776-a440-b6708779deaf",
+      "name": "Rest Client Patient One",
+      "dob": "2012-12-12",
+      "treatments": []
+    }
+  ],
+  "providers": [
+    {
+      "id": "492ae817-968e-40eb-ad03-978912cc8360",
+      "npi": "12345678",
+      "name": "Rest Client Provider One",
+      "treatments": []
+    }
+  ],
+  "treatments": [
+    {
+      "type-tag": "DRUGTREATMENT",
+      "drug": "asd",
+      "dosage": 12.0,
+      "start-date": "1999-12-12",
+      "end-date": "2022-12-12",
+      "frequency": 12,
+      "id": "10bf010f-bcd7-45cc-b5b7-a6982fe20211",
+      "patient-id": "9b4962ed-190f-4776-a440-b6708779deaf",
+      "provider-id": "492ae817-968e-40eb-ad03-978912cc8360",
+      "diagnosis": "asd",
+      "followup-treatments": [
+        {
+          "type-tag": "SURGERY",
+          "surgery-date": "2022-12-12",
+          "discharge-instructions": "Discharge Intruction",
+          "id": "62c9a827-8fd0-42e6-b66e-bdf589c953f0",
+          "patient-id": "9b4962ed-190f-4776-a440-b6708779deaf",
+          "provider-id": "492ae817-968e-40eb-ad03-978912cc8360",
+          "diagnosis": "fansad",
+          "followup-treatments": []
+        }
+      ]
+    }
+  ]
+}
