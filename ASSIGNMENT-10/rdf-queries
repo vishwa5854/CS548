@@ -1,0 +1,149 @@
+owl> namespace http://www.cs.stevens.edu/cs548#
+owl> gelp 
+Bad input.  Type "help" for more information.
+owl> help
+Commands are:
+  namespace uri: set the namespace uri for resource names
+  schema filename: load OWL definitions
+  all: list all triples in the knowledge base
+  props res: list the properties for a resource
+  elems class: list instances in the class
+  isa res class: is the resource in the class?
+  debug: toggle debugging output
+  quit: exit
+owl> schem hello.owl
+Bad input.  Type "help" for more information.
+owl> schema hello.owl
+owl> props Charlotte
+Classifying 13 elements
+Classifying:  100% complete in 00:00
+Classifying finished in 00:00
+Realizing 13 elements
+
+Realizing finished in 00:00
+---------------------------------------------------------------------------------------------------
+| prop                                              | object                                      |
+===================================================================================================
+| <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> | <http://www.cs.stevens.edu/cs548#Provider>  |
+| <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> | <http://www.w3.org/2002/07/owl#Thing>       |
+| <http://www.w3.org/2002/07/owl#sameAs>            | <http://www.cs.stevens.edu/cs548#Charlotte> |
+---------------------------------------------------------------------------------------------------
+owl> elems RadiologyPatient
+-------------------------------------------
+| subject                                 |
+===========================================
+| <http://www.cs.stevens.edu/cs548#Peter> |
+-------------------------------------------
+owl> isa Charlotte Provider
+Charlotte IS recognized as a Provider
+owl> isa Charlotte Internist
+Charlotte is NOT recognized as a Internist
+owl> help
+Commands are:
+  namespace uri: set the namespace uri for resource names
+  schema filename: load OWL definitions
+  all: list all triples in the knowledge base
+  props res: list the properties for a resource
+  elems class: list instances in the class
+  isa res class: is the resource in the class?
+  debug: toggle debugging output
+  quit: exit
+owl> elems Treatment
+-----------
+| subject |
+===========
+-----------
+owl> element Surgeon
+Bad input.  Type "help" for more information.
+owl> elems Surgeon
+-----------------------------------------
+| subject                               |
+=========================================
+| <http://www.cs.stevens.edu/cs548#Sam> |
+-----------------------------------------
+owl> elems Radiologist
+-------------------------------------------
+| subject                                 |
+===========================================
+| <http://www.cs.stevens.edu/cs548#John>  |
+| <http://www.cs.stevens.edu/cs548#Peter> |
+-------------------------------------------
+owl> elems Internist
+--------------------------------------------
+| subject                                  |
+============================================
+| <http://www.cs.stevens.edu/cs548#Intern> |
+--------------------------------------------
+owl> elems SurgeryTreatment
+-----------
+| subject |
+===========
+-----------
+owl> elems Surgery
+-------------------------------------------------------
+| subject                                             |
+=======================================================
+| <http://www.cs.stevens.edu/cs548#SurgeryTreatment1> |
+| <http://www.cs.stevens.edu/cs548#Surgery1>          |
+-------------------------------------------------------
+owl> elems DrugTreatment
+--------------------------------------------------
+| subject                                        |
+==================================================
+| <http://www.cs.stevens.edu/cs548#DrugsForCarl> |
+--------------------------------------------------
+owl> help
+Commands are:
+  namespace uri: set the namespace uri for resource names
+  schema filename: load OWL definitions
+  all: list all triples in the knowledge base
+  props res: list the properties for a resource
+  elems class: list instances in the class
+  isa res class: is the resource in the class?
+  debug: toggle debugging output
+  quit: exit
+owl> props ProvidedBy
+---------------------------------------------------------------------------------------------------------------
+| prop                                                 | object                                               |
+===============================================================================================================
+| <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    | <http://www.w3.org/2002/07/owl#Thing>                |
+| <http://www.w3.org/2002/07/owl#sameAs>               | <http://www.cs.stevens.edu/cs548#ProvidedBy>         |
+| <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> | <http://www.w3.org/2002/07/owl#topObjectProperty>    |
+| <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> | <http://www.cs.stevens.edu/cs548#ProvidedBy>         |
+| <http://www.w3.org/2002/07/owl#equivalentProperty>   | <http://www.cs.stevens.edu/cs548#ProvidedBy>         |
+| <http://www.w3.org/2002/07/owl#propertyDisjointWith> | <http://www.w3.org/2002/07/owl#bottomObjectProperty> |
+| <http://www.w3.org/2000/01/rdf-schemarange>          | <http://www.cs.stevens.edu/cs548#Provider>           |
+| <http://www.w3.org/2000/01/rdf-schemadomain>         | <http://www.cs.stevens.edu/cs548#Treatment>          |
+| <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    | <http://www.w3.org/2002/07/owl#ObjectProperty>       |
+---------------------------------------------------------------------------------------------------------------
+owl> props ReceivedBy
+---------------------------------------------------------------------------------------------------------------
+| prop                                                 | object                                               |
+===============================================================================================================
+| <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    | <http://www.w3.org/2002/07/owl#Thing>                |
+| <http://www.w3.org/2002/07/owl#sameAs>               | <http://www.cs.stevens.edu/cs548#ReceivedBy>         |
+| <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> | <http://www.cs.stevens.edu/cs548#ReceivedBy>         |
+| <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> | <http://www.w3.org/2002/07/owl#topObjectProperty>    |
+| <http://www.w3.org/2002/07/owl#equivalentProperty>   | <http://www.cs.stevens.edu/cs548#ReceivedBy>         |
+| <http://www.w3.org/2002/07/owl#inverseOf>            | <http://www.cs.stevens.edu/cs548#ProvidedTo>         |
+| <http://www.w3.org/2002/07/owl#propertyDisjointWith> | <http://www.w3.org/2002/07/owl#bottomObjectProperty> |
+| <http://www.w3.org/2000/01/rdf-schemarange>          | <http://www.cs.stevens.edu/cs548#Patient>            |
+| <http://www.w3.org/2000/01/rdf-schemadomain>         | <http://www.cs.stevens.edu/cs548#Treatment>          |
+| <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    | <http://www.w3.org/2002/07/owl#ObjectProperty>       |
+---------------------------------------------------------------------------------------------------------------
+owl> help
+Commands are:
+  namespace uri: set the namespace uri for resource names
+  schema filename: load OWL definitions
+  all: list all triples in the knowledge base
+  props res: list the properties for a resource
+  elems class: list instances in the class
+  isa res class: is the resource in the class?
+  debug: toggle debugging output
+  quit: exit
+owl> elems Patient
+--------------------------------------------
+| subject                                  |
+============================================
+| <http://www.cs.stevens.edu/cs548#Parker> |
+--------------------------------------------
